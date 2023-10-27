@@ -1,0 +1,22 @@
+# Web Framework
+fastapi>=0.68.0
+
+# ASGI Server
+uvicorn>=0.15.0
+gunicorn>=20.1.0  # Optional: you might use it for deployment
+
+# Database
+psycopg2-binary>=2.9.1  # PostgreSQL adapter for Python
+
+# Machine Learning
+jax>=0.2.25  # For machine learning models
+jaxlib>=0.1.74  # Needed for JAX
+
+# Dependency Injection (Optional but helpful in FastAPI projects)
+pydantic>=1.8.2
+
+# CORS (Optional, if you need to manage Cross-Origin Resource Sharing)
+# fastapi-cors>=1.5.3
+
+# If you plan to use environment variables for configuration (optional)
+python-dotenv>=0.19.2

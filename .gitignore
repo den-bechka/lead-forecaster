@@ -1,0 +1,28 @@
+# Ignore PHPStorm configuration and temporary files
+.idea/
+
+# Ignore pycache and __pycache__ directories and contents
+__pycache__/
+*.pyc
+
+# Ignore Python virtual environment files
+venv/
+*.venv
+*.virtualenv
+
+# Ignore Docker related files and directories
+.dockerignore
+*.dockerfile
+docker-compose.override.yml
+
+# Ignore directories with pre-trained models and other large files
+/app/models/pretrained/
+
+# Ignore directories and files related to logging and monitoring
+logs/
+*.log
+
+# Ignore other temporary or non-code related files
+*.tmp
+*.bak
+.DS_Store
