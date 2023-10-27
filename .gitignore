@@ -26,3 +26,6 @@ logs/
 *.tmp
 *.bak
 .DS_Store
+
+# Ignore protecred files
+.env
