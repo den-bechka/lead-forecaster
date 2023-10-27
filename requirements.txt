@@ -20,3 +20,6 @@ pydantic>=1.8.2
 
 # If you plan to use environment variables for configuration (optional)
 python-dotenv>=0.19.2
+
+# Trello
+py-trello
